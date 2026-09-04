@@ -1,0 +1,126 @@
+#InnerHeader
+{
+    height: 66px;
+    width: 100%;
+
+    border: solid;
+
+}
+
+#InnerHeader #InnerContainer
+{
+    height: 100%;
+    width: 80%;
+
+    border: solid;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#InnerHeader #InnerContainer #headerImageBox
+{
+    width: 220px;
+    height: 44px;
+
+    margin-right: 10px;
+}
+
+#InnerHeader #InnerContainer img
+{
+    width: 100%;
+    height: 100%;
+
+
+
+    object-fit: contain;
+}
+
+
+#InnerHeader #InnerContainer .headerButtons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#InnerHeader #InnerContainer .headerButtons button
+{
+    height: 32px;
+    width: 150px;
+    
+    border-radius: 30px;
+    border: none;
+
+    font-size: large;
+    
+    background-color: rgb(255, 255, 255);
+
+    margin: 20px 10px;
+
+    cursor: pointer;
+}
+#InnerHeader #InnerContainer .headerButtons button:hover
+{
+    background-color: rgba(13,128,242,.05);
+    color: #0c5fab;
+}
+
+#InnerHeader #InnerContainer .headerButtons button svg
+{
+    height: 20px;
+    width: 20px;
+
+    padding-top: 5px;
+}
+
+
+#InnerHeader #InnerContainer #montlyPicks
+{
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 12px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    cursor: text;
+
+}
+#InnerHeader #InnerContainer #montlyPicks svg
+{
+    width: 20px;
+    height: 20px;
+
+}
+
+#InnerHeader #InnerContainer #headerImageBox-2
+{
+    height: 35px;
+    width: 120px;
+
+    padding: 10px 10px;
+    
+    background-color: white;
+
+    box-shadow: 10px 10px 10px 10px rgba(0 ,  0 , 0 , 0.1);
+
+    border-radius: 30px;
+
+    margin-left: 5px;
+
+    cursor: pointer;
+}
+
+#InnerHeader #InnerContainer #searchButton
+{
+    height: 40px;
+    width: 40px;
+
+    background-color: transparent;
+    border: none;
+
+}
