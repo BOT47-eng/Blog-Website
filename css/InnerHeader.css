@@ -16,6 +16,11 @@
 
     overflow: hidden;
 
+    background-color:  white;
+    border-style: none none solid none;
+    border-width: 0.01px;
+
+
     position: fixed;
     left: 150px;
     top: 0px;

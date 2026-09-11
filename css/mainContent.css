@@ -1,0 +1,58 @@
+#mainContentContainer
+{
+
+    height: 100%;
+    width: 100%;
+
+    background-color: beige;
+
+}
+
+/* 
+
+GRI is Global Reporting intiative, which makes standrazied frameworks for google reporting 
+Three Main pillars
+
+
+*/
+
+#mainContentContainer .mainContent
+{
+
+    width: 70%;
+    height: 100%;
+
+    margin: auto;
+
+    padding: 0px 20px;
+    padding-top: 70px;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: brown;
+}
+#mainContentContainer .mainContent #firstHalfContent
+{
+
+    background-color: aqua;
+    height: 100%;
+
+    flex: 2;
+
+    display: inline-block;
+}
+
+#mainContentContainer .mainContent #secondHalfContent
+{
+    background-color: rgb(154, 248, 60);
+    height: 100%;
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
